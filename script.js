@@ -61,4 +61,22 @@ function cursorAnimation() {
         });
     });
 }
+
+function page2Animation(){
+    gsap.from(".elem h1",{
+        y:120,
+        stagger:0.2,
+        duration:1,
+        ScrollTrigger:{
+            trigger: "#page2",
+            scroller: "#main",
+            start: "top 50%",
+            end: "bottom 30%",
+            scrub: 1,
+            markers: true,
+        }
+    })
+}
+
 cursorAnimation();
+page2Animation();

@@ -175,7 +175,7 @@ nav h4 {
     height: 75vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 8vw;
 }

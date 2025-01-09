@@ -68,15 +68,16 @@ cursorAnimation();
 
 function page2Animation(){
     gsap.from(".elem h1",{
-        y:120,
-        stagger:0.1,
+        y:500,
+        stagger:0.2,
+        duration:1.5,
         scrollTrigger:{
             trigger:"#page2",
-            scroller:"body",
-            start:"top 17%",
-            end:"top 50%",
-            markers:true,
-            scrub:2,
+            scroller:"#main",
+            start:"top 47%",
+            end:"top 45%",
+            // markers:true,
+            scrub:1,
         }
     })
 }

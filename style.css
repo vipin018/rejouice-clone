@@ -18,6 +18,8 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #111;
+    color: #fff;
 }
 
 #page1 {
@@ -116,6 +118,7 @@ nav h4 {
     font-size: 1.7vw;
     font-family: 'font1';
     font-weight: 100;
+
 }
 
 #page2-top h4 {
@@ -132,7 +135,6 @@ nav h4 {
     font-size: 4vw;
     font-weight: 300;
     font-family: 'font2';
-    color: #000;
 }
 
 #page3{
@@ -236,4 +238,84 @@ nav h4 {
     object-fit: cover;
     object-position: center;
     border-radius: 5vw;
+}
+
+#page5{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20vw;
+}
+
+#page5 h3{
+    font-size: 5vw;
+    font-family: 'font1';
+    font-weight: 100;
+    padding: 3vw;
+    text-align: center;
+}
+
+#page5 h3 span{
+    font-size: 5vw;
+    font-family: 'font1';
+    text-align: center;
+    color: #FF5F36;
+}
+
+#page5-bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page5-bottom .elem{
+    height: 100%;
+    width: 32%;
+    position: relative;
+}
+
+#page5-bottom .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vw;
+}
+
+#page5-bottom-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page5-bottom-2 .elem{
+    height: 100%;
+    width: 32%;
+    position: relative;
+}
+
+#page5-bottom-2 .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1vw;
+}
+
+#page6{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 10vw;
+
+}
+
+#page6 #svg-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
